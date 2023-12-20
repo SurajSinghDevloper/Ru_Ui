@@ -1,0 +1,108 @@
+body {
+  background-color: #faf8fd;
+}
+.loginpage {
+  background: url(/img/loginbg.jpg) center top no-repeat;
+  padding-top: 0px;
+}
+.loginlogo {
+  width: 180px;
+}
+.mainlogin {
+  width: 700px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.loginsec {
+  background: #fff;
+  border: 2px solid #9690d1;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.loginsec > div {
+  width: 50%;
+}
+.leftlogin {
+  background: url(/img/loginimg.jpg) center top no-repeat;
+  position: relative;
+}
+.loginlogo {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+.righttlogin {
+  padding: 8% 5%;
+}
+.righttlogin h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #33288b;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.logbot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+}
+.logbot > div {
+  display: flex;
+  align-items: center;
+}
+.inputsec {
+  position: relative;
+  margin-top: 10px;
+}
+.inputsec i {
+  position: absolute;
+  left: 10px;
+  top: 12px;
+  font-size: 20px;
+  color: #50d4f5;
+}
+.inputsec input {
+  width: 100%;
+  padding: 10px 10px 10px 40px;
+  border-radius: 4px;
+  border: 1px solid #c1c1e7;
+}
+.captchasec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.captchasec > div {
+  width: 48%;
+}
+.captchasec > div input {
+  width: 100%;
+  border: 1px solid #c1c1e7;
+  height: 40px;
+  padding: 10px;
+  border-radius: 4px;
+}
+.captchatext {
+  border: 1px solid #c1c1e7;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  height: 40px;
+  border-radius: 4px;
+}
+.inputsec .logbtn {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  background: #33288b;
+  color: #fff;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
